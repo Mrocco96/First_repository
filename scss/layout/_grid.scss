@@ -1,0 +1,69 @@
+
+
+/*contact*/
+
+
+
+
+#page {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-areas:
+        "head head head"
+        "head  head head"
+        "main main  main"
+        "nav nav nav"
+        "foot foot foot";
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(4);
+    background-image: url(../assetss/img/burger-about.jpg);
+
+}
+
+article {
+    position: relative;
+
+}
+
+#page>header {
+    grid-area: head;
+    background-image: url(../assetss/img/burger-about.jpg);
+
+}
+
+#page>article {
+    grid-area: nav;
+    background-image: url(../assetss/img/burger-about.jpg);
+    background-position: 10vh
+}
+
+#page>main {
+    grid-area: main;
+    background-image: url(../assetss/img/burger-about.jpg);
+}
+
+#page>footer {
+    grid-area: foot;
+    background-image: url(../assetss/img/burger-about.jpg);
+}
+
+
+/*main grid contact*/
+@media (min-width:768px) {
+    .main_contact3 {
+        display: grid;
+        width: 100vw;
+
+        grid-template-columns: 85% 15%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "header header"
+            "h1 h1"
+            "form form"
+            "sucursales sucursales"
+            "mapa mapa"
+            "footerc footerc"
+        ;
+    }
+}

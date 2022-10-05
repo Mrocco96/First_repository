@@ -1,0 +1,68 @@
+
+//menu
+
+//main menu
+
+.body_menu{
+    margin: 0px;
+    padding: 0px;
+}
+
+.burger_menu {
+    display: grid;
+    background-color: black;
+    color: white;
+}
+
+.menu_potatos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+.drinks_menu {
+   background-color: black;
+    color: white;
+}
+
+.menu-menu {
+    background-color: rgba(255, 179, 0, 0.923);
+    padding: 20px;
+    text-align: center;
+    padding-top: 11vh;
+}
+
+.hero-menu {
+    padding-top: 55px;
+    position: relative;
+    background-size: 179vh 80vw;
+    background-repeat: no-repeat;
+    background-position-y: bottom 99%;
+    height: 130vh;
+}
+
+.slider_burger {
+    display: flex;
+    overflow-x: scroll;
+}
+
+
+.slider_Drink {
+    display: inline-block;
+    overflow-x: scroll;
+}
+
+.service {
+   background-color: black;
+    color: white;
+}
+
+.slider_service {
+    display: inline-block;
+    overflow-x: scroll;
+}
+
+.slider_comple {
+    display: flex;
+    overflow-x: scroll;
+}

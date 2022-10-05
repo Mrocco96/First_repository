@@ -1,0 +1,62 @@
+
+
+//contact
+
+//hero section contact
+
+.hero-contactform {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+
+.hero_contact3 {
+    height: 98vh;
+
+    background-image: url(..//assetss/img/burger-about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+
+    align-items: flex-start;
+    grid-area: h1;
+}
+
+.h2_cont {
+    text-align: center;
+
+}
+
+.h2_cont h1 {
+    font-size: 3rem;
+}
+
+.h2_cont p {
+    font-size: 1, 12 rem;
+}
+
+
+
+
+
+//mapa contacto
+
+.mapa {
+    grid-area: mapa;
+}
+
+.title_mapa {
+    padding: 13px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.778);
+}
+
+.mapa_google {
+    width: 100vw;
+}
+
+}

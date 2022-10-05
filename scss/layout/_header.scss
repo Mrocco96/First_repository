@@ -1,0 +1,299 @@
+/*header principal*/
+.main-header {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header-wrap {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: coral;
+    z-index: 999;
+
+
+    .nav-wrap-header {
+        display: flex;
+        flex-basis: 50%;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        list-style: none;
+    }
+}
+
+
+
+.wrap-logo-header {
+    background-image: url(../assetss/icons/burger-icon.png);
+    background-size: 9%;
+    background-repeat: no-repeat;
+    padding-bottom: 10vh;
+    background-color: $coloruno;
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.logo-header {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+input#check {
+    display: none;
+}
+
+i.toggle-menu {
+    display: none;
+    background-color: $coloruno;
+    border: none;
+    z-index: 9999;
+}
+
+i.toggle-menu img {
+    width: 27px;
+    z-index: 99;
+}
+
+ul.main-menu {
+    background-color: $coloruno;
+    display: flex;
+    width: 100%;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+ul.main-menu #nav-main-contact {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    background-color: darkkhaki;
+    color: $coloruno;
+
+}
+
+li.menu-item {
+    margin: .75rem;
+    display: flex;
+}
+
+li.menu-item a {
+    padding: .5rem 1rem;
+    color: rgb(184, 255, 5);
+}
+
+li.menu-item a:hover {
+
+    color: white;
+}
+
+@media (max-width:880px) {
+    .header-wrap {
+        padding: .5rem 5rem;
+    }
+}
+
+@media (max-width:770px) {
+    header {
+
+        margin-bottom: 4rem;
+    }
+
+    .wrap-logo-header {
+        background-color: $coloruno;
+
+    }
+
+    .header-wrap {
+        position: fixed;
+        width: 100%;
+        background-color: $coloruno;
+        padding: 0;
+        top: 0;
+        z-index: 9999;
+        height: 60px;
+    }
+
+    .wrap-logo-header {
+
+        position: fixed;
+        z-index: 999;
+        top: 3%;
+        left: 3%;
+
+    }
+
+    i.toggle-menu {
+        display: flex;
+    }
+
+    ul.main-menu,
+    #nav-main-contact {
+
+        display: none;
+        left: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    u.main-menu {
+        position: fixed;
+        background-color: yellow;
+    }
+
+    label.checkbtn {
+        position: fixed;
+        right: 3%;
+        top: 3%;
+    }
+
+    #check:checked~ul {
+        display: flex;
+        z-index: 9;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        top: 0;
+
+    }
+}
+
+
+
+
+
+
+/*header contact*/
+.header_contact {
+    background-color: $coloruno ;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    position: relative;
+    grid-area: header;
+}
+
+.logo_contact3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    img {
+        padding: 5px;
+        width: 10%;
+    }
+
+}
+
+.header_title3 {
+    text-align: center;
+
+}
+
+.header_nav3 {
+
+
+    ul {
+
+        list-style: none ;
+        display: flex;
+        padding-right: 40px;
+
+
+
+    }
+
+    li {
+
+        margin: 7px;
+
+    }
+
+}
+
+
+
+
+@media(min-width:768px) {
+
+    .header_contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+
+
+
+    }
+
+
+
+
+
+    .header_title3 {
+        width: 90%;
+        text-align: start;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+//header Menu
+
+.menu_titulo {
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+//Header Reservation
+
+.h1_reser {
+    color: rgb(255, 242, 0);
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+@media (max-width:770px) {
+    .h1_reser {
+        font-size: medium
+    }
+}

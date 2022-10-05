@@ -1,0 +1,75 @@
+@mixin tarjeta {
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: solid 5px;
+    background-color: rgba(87, 87, 87, 0.886);
+    padding: 5px;
+
+}
+
+/*Contact seccion de tarjetas*/
+
+.sucursales {
+    background-image: url(../assetss/img/restaurant_reser.jpg);
+    background-position: start;
+    background-size: cover;
+    grid-area: sucursales;
+
+
+
+    .sucursales_title {
+        padding: 13px;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.778);
+
+    }
+
+    .cont_sucursales {
+        padding: 10px;
+        display: flex;
+        overflow-x: auto;
+        gap: 30px;
+    }
+  
+    .tarjeta_cont {
+        @include tarjeta;
+    
+    
+
+   h3 {
+        background-color: rgba(255, 89, 0, 0.769);
+        width: 11rem;
+        text-align: center;
+        border-radius: 6px;
+        padding: 10px
+    }
+
+    img {
+
+        width: 100%
+    }
+    }
+}
+
+//tarjetas menu
+
+.tarjeta_img {
+    width: 50%;
+}
+
+.tarjeta_img_potatos {
+    width: 40%;
+}
+
+.tarjeta_menu {
+    min-width: none;
+    height: 350px;
+
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

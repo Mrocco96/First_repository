@@ -1,0 +1,65 @@
+/*Index*/
+
+.hero-index {
+    background: url(../assetss/img/burger1.jpg);
+    position: relative;
+    background-size: cover;
+
+    background-position-y: top 80%;
+    height: 100vh;
+
+
+}
+
+.hero_text-index {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    
+    bottom: 54%;
+    right: 75%;
+    transform: translate(-10%, -10%);
+}
+
+.hero_text-index1 {
+    position: absolute;
+    bottom: 50%;
+    right: 73%;
+    transform: translate(-10%, -10%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media (max-width:770px) {
+
+    .hero-index {
+        position: relative;
+        background: url(../assetss/img/burger1.jpg);
+
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 39%;
+
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .hero_text-index {
+        position: absolute;
+        bottom: 74%;
+        right: 15%;
+        transform: translate(-10%, -10%);
+    }
+
+    .hero_text-index1 {
+        position: absolute;
+        bottom: 70%;
+        right: 13%;
+        transform: translate(-10%, -10%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}

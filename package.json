@@ -1,0 +1,20 @@
+{
+  "name": "proyecto.tres",
+  "version": "1.0.0",
+  "description": "Developer Name: Matias Rocco",
+  "main": "index.js",
+  "scripts": {
+    "inicio-sass":"sass --watch scss/main.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrocco96/First_repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrocco96/First_repository/issues"
+  },
+  "homepage": "https://github.com/Mrocco96/First_repository#readme"
+}
