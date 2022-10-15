@@ -1,6 +1,7 @@
 /*reservation*/
 
 .hero-reservation {
+    background-color: $coloruno;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -16,12 +17,24 @@
 
 
 }
+.h1_reser {
+    color: rgb(255, 242, 0);
+    text-align: center;
+    font-size: 3rem;
+}
 
+
+@media (max-width:770px) {
+    .h1_reser {
+        font-size: medium
+    }
+}
 
 
 
 .sec_reser {
-    margin: 13rem;
+    margin-top: 5rem;
+    margin-left: 7rem;
 }
 
 
@@ -82,7 +95,7 @@
     
     }
     .sec_reser {
-        padding-top: 60px;
+        
         margin: 0%
     }
 

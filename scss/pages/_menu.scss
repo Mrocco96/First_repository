@@ -6,12 +6,19 @@
 .body_menu{
     margin: 0px;
     padding: 0px;
+    background-color: $coloruno;
 }
 
+.hero-menu{
+    padding-top: 0px;
+}
 .burger_menu {
+
     display: grid;
     background-color: black;
     color: white;
+  
+  
 }
 
 .menu_potatos {
@@ -27,19 +34,12 @@
 
 .menu-menu {
     background-color: rgba(255, 179, 0, 0.923);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    padding-top: 11vh;
+    padding-top: 1px;
 }
 
-.hero-menu {
-    padding-top: 55px;
-    position: relative;
-    background-size: 179vh 80vw;
-    background-repeat: no-repeat;
-    background-position-y: bottom 99%;
-    height: 130vh;
-}
+
 
 .slider_burger {
     display: flex;

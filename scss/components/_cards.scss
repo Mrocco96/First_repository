@@ -40,7 +40,7 @@
 
    h3 {
         background-color: rgba(255, 89, 0, 0.769);
-        width: 11rem;
+        width: 12rem;
         text-align: center;
         border-radius: 6px;
         padding: 10px
@@ -48,7 +48,8 @@
 
     img {
 
-        width: 100%
+        width: 220px;
+        height: 130px;
     }
     }
 }
@@ -57,19 +58,25 @@
 
 .tarjeta_img {
     width: 50%;
+    border: 2px solid $coloruno;
+   
+    
 }
 
 .tarjeta_img_potatos {
     width: 40%;
+    border: 2px solid $coloruno;
+   
 }
 
 .tarjeta_menu {
     min-width: none;
     height: 350px;
 
-    border: 2px solid black;
+    border: 2px solid $coloruno;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
